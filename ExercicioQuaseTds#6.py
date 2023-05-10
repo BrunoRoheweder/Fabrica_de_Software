@@ -81,8 +81,8 @@ print("Costa"in e)
 print("\n")
 
 e2 = "Bruno da costa roheweder"
-print(e2.count("a"))
 
+print(e2.count("a")) #conta a quantidade de caracters informado
 print("\n")
 
 s = "Olamundospeirãnt."
@@ -122,7 +122,7 @@ print(s[1])
 print("\n")
 
 s1 = "Olá, mundo"
-print(s[1:3])
+print(s1[1:3])
 
 print("\n")
 
