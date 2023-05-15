@@ -1,4 +1,4 @@
-'''num1 = int(input("Digite um numero: "))
+num1 = int(input("Digite um numero: "))
 num2 = int(input("Digite um numero: "))
 num3 = int(input("Digite um numero: "))
 
@@ -71,7 +71,7 @@ d = [1,2,3,4,5,6,7,8,9]
 print(d)
 print(max(d))
 print(min(d))
-print(sum(d))
+print(sum(d)) # soma tudo q esta dentro
 
 print("\n")
 
@@ -160,9 +160,9 @@ g.sort(reverse=True) #sort coloca em ordem crescente e decrescente
 print(g)
 
 print("\n")
-'''
+
 q = [1,2,3,4,5,6,7,8,9]
-print(q.index(4)) #index mostra a posiç
+print(q.index(4)) #index mostra a posição
 
 print("\n")
 
@@ -172,7 +172,7 @@ print(y)
 
 u = [1,2,3,4,5,6,7]
 print(u)
-print(u.count(4)) #mostra quantas vezes '(4)' esta dentro dos []
+print(u.count(4)) #mostra quantas vezes '(4)' esta dentro dos [] da lista
 
 e = [1,2,3,4]
 e.pop()
