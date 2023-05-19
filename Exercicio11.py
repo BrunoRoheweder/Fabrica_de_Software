@@ -62,7 +62,7 @@ while True:
     print()
 
     print("* ",68*"="," *")
-    caracter = (input(" "*8+"Escolha qual a operação que ira usar a parte\nAviso:Apos escolher esta operaçâo desconsidere a escolha de numeros.\nOperações permitidas: \nM.4 - Media de 4 números\n:"))
+    caracter = (input(" "*8+"Escolha qual a operação que ira usar a parte\nAviso:Apos escolher esta operaçâo desconsidere a escolha de numeros.\nOperações permitidas: \nM.4 - Media de 4 números\nV.C - Volume de um cubo\nEscolha:"))
     print("* ",68*"="," *")
 
     print()
@@ -77,7 +77,7 @@ while True:
 
     print()
 
-    if caracte == '+':
+    if caracte == '+':   #Adição
         soma = (num1+num2)
 
         # aqui tem que mostrar o calulo 
@@ -88,7 +88,7 @@ while True:
         print("* ",68*"="," *")
         break
     
-    elif caracte == '-':
+    elif caracte == '-': #Subtraçâo
         soma = (num1-num2)
 
         # aqui tem que mostrar o calulo 
@@ -99,7 +99,7 @@ while True:
         print("* ",68*"="," *")
         break
 
-    elif caracte == '*':
+    elif caracte == '*': #Multiplicaçâo
         soma = (num1*num2)
 
         # aqui tem que mostrar o calulo 
@@ -109,7 +109,7 @@ while True:
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
         break
-    elif caracte == '/':
+    elif caracte == '/': #Divisâo
         soma = (num1/num2)
 
         # aqui tem que mostrar o calulo 
@@ -119,17 +119,17 @@ while True:
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
         break
-    elif caracte == 'E':
+    elif caracte == 'E': # Exponenciaçâo
         soma = (num1 ** num2)
 
         # aqui tem que mostrar o calulo 
         print("* ",68*"="," *")
         print("|"+36*" "+35*" "+"|")  
-        print(" "*30+f"{num1} elevado {num2} = {soma}")
+        print(" "*30+f"{num2} ^ {num1} = {soma}")
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
         break
-    elif caracte == 'F':
+    elif caracte == 'F':  # Fatorial
 
 
         # aqui tem que mostrar o calulo 
@@ -139,7 +139,7 @@ while True:
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
         break
-    elif caracte == "R.Q":
+    elif caracte == 'R.Q':  # Raiz quadrada
         soma = (num1**0.5)
 
         # aqui tem que mostrar o calulo 
@@ -149,7 +149,7 @@ while True:
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
         break
-    elif caracte == 'A.Q':
+    elif caracte == 'A.Q':  # Area de um quadrado
         soma = (num1*num2)
 
         # aqui tem que mostrar o calulo 
@@ -159,17 +159,18 @@ while True:
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
         break
-    elif caracte == 'V.C':
-        
+    elif caracter == 'V.C':  # Volume de um cubo
+        a = float(input("Digite a altura do cubo:"))
+        soma = (a*a*a)
 
         # aqui tem que mostrar o calulo 
         print("* ",68*"="," *")
         print("|"+36*" "+35*" "+"|")  
-        print(" "*30+f"{num1} + {num2} = {soma}")
+        print(" "*30+f"A altura é {a} e o volume é {soma}")
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
         break
-    elif caracter == 'M.4':
+    elif caracter == 'M.4':  # Media de 4 numeros
         nota1 = float(input("Primeira nota: "))
         nota2 = float(input("Segunda nota: "))
         nota3 = float(input("Terceira nota: "))
