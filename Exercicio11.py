@@ -22,7 +22,7 @@ while cont <= 101:
     if cont == 0:
         break
 '''
-
+import os
 while True:
     
     print("*",70*"-","*")
@@ -184,3 +184,6 @@ while True:
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
         break
+
+    os.system('pause')
+    os.system('cls')
