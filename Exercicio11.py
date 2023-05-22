@@ -32,7 +32,7 @@ while True:
     print("*",70*"-","*")
 
     print()
-    # aqiu vai ser o numeros e etc...
+    # aqui vai ser o numeros e etc...
     print("* ",68*"="," *\n")
     print(("|"+17*" "+"|"+" "+17*" "+"|"+17*" "+"|"+17*" "+"|\n")*2)
     print(("|"+7*" "+"A.Q"+7*" "+"|"+7*" "+"R.Q"+8*" "+"|"+8*" "+"/"+8*" "+"|"+8*" "+"*"+8*" "+"|")) 
@@ -43,7 +43,7 @@ while True:
     print(("|"+7*" "+"V.C"+7*" "+"|"+8*" "+"9"+9*" "+"|"+8*" "+"+"+8*" "+"|"+8*" "+"-"+8*" "+"|"))
     print(("|"+17*" "+"|"+" "+17*" "+"|"+17*" "+"|"+17*" "+"|\n")*2) 
     print("* ",68*"-"," *")
-
+    
     print(("|"+17*" "+"|"+" "+17*" "+"|"+17*" "+"|"+17*" "+"|\n")*2)
     print(("|"+7*" "+"M.4"+7*" "+"|"+8*" "+"6"+9*" "+"|"+8*" "+"7"+8*" "+"|"+8*" "+"8"+8*" "+"|"))
     print(("|"+17*" "+"|"+" "+17*" "+"|"+17*" "+"|"+17*" "+"|\n")*2)
@@ -61,18 +61,23 @@ while True:
 
     print()
 
-    print("* ",68*"="," *")
-    caracter = (input(" "*8+"Escolha qual a operação que ira usar a parte\nAviso:Apos escolher esta operaçâo desconsidere a escolha de numeros.\nOperações permitidas: \nM.4 - Media de 4 números\nV.C - Volume de um cubo\nEscolha:"))
-    print("* ",68*"="," *")
-
+    print("* ",80*"="," *")
+    caracter = (input("Escolha uma operação especia\n \
+    Aviso:Apos escolher esta operaçâo desconsidere a escolha de numeros.\n \
+    Operações permitidas: \nM.4 - Media de 4 números\nV.C - Volume de um cubo\nF - Fatorial\n" 
+    "E - Exponenciaçâo\nA.Q - Area de um quadrado\nR.Q - raio de um quadrado\nDigite '0' para operações basicas\nEscolha:"))
+    print("* ",80*"="," *")
+    caracter = caracter.upper()
+    print(caracter)
     print()
 
     print("* ",68*"="," *")
-    print("|"+36*" "+35*" "+"|") 
-    num1 = int(input(" "*20+" "))
-    caracte = input(" "*20+" ")
-    num2 = int(input(" "*20+" "))
-    print("|"+36*" "+35*" "+"|") 
+    print("|"+"Caso tenhe escolhido uma das operações especias desconcidere isso"+35*" ") 
+    print("|"+36*" "+35*" ") 
+    num1 = int(input("|"+" Digite o primeiro numero:      "+" "))
+    caracte = input("|"+" Digite a operação que deseja:  "+" ")
+    num2 = int(input("|"+" Digite o segundo numero:       "+" "))
+    print("|"+36*" "+35*" ") 
     print("* ",68*"="," *")
 
     print()
@@ -83,10 +88,10 @@ while True:
         # aqui tem que mostrar o calulo 
         print("* ",68*"="," *")
         print("|"+36*" "+35*" "+"|")  
-        print(" "*30+f"{num1} + {num2} = {soma}")
+        print("|"+" "*30+f"{num1} + {num2} = {soma}"+32*" "+"|")
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
-        break
+        
     
     elif caracte == '-': #Subtraçâo
         soma = (num1-num2)
@@ -94,10 +99,10 @@ while True:
         # aqui tem que mostrar o calulo 
         print("* ",68*"="," *")
         print("|"+36*" "+35*" "+"|")  
-        print(" "*30+f"{num1} + {num2} = {soma}")
+        print("|"+" "*30+f"{num1} - {num2} = {soma}"+32*" "+"|")
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
-        break
+        
 
     elif caracte == '*': #Multiplicaçâo
         soma = (num1*num2)
@@ -105,42 +110,51 @@ while True:
         # aqui tem que mostrar o calulo 
         print("* ",68*"="," *")
         print("|"+36*" "+35*" "+"|")  
-        print(" "*30+f"{num1} + {num2} = {soma}")
+        print("|"+" "*30+f"{num1} * {num2} = {soma}"+32*" "+"|")
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
-        break
+        
     elif caracte == '/': #Divisâo
         soma = (num1/num2)
 
         # aqui tem que mostrar o calulo 
         print("* ",68*"="," *")
         print("|"+36*" "+35*" "+"|")  
-        print(" "*30+f"{num1} + {num2} = {soma}")
+        print("|"+" "*30+f"{num1} / {num2} = {soma}"+32*" "+"|")
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
-        break
-    elif caracte == 'E': # Exponenciaçâo
-        soma = (num1 ** num2)
 
+        #Operações difente do comum
+
+    elif caracter == 'E': # Exponenciaçâo
+        n1 = int(input("Digite o primeiro numero: "))
+        n2 = int(input("Digite o primeiro numero: "))
+        soma = (n1 ** n2)
+        
         # aqui tem que mostrar o calulo 
         print("* ",68*"="," *")
         print("|"+36*" "+35*" "+"|")  
-        print(" "*30+f"{num2} ^ {num1} = {soma}")
+        print("|"+" "*30+f"{num1} ** {num2} = {soma}"+32*" "+"|")
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
-        break
-    elif caracte == 'F':  # Fatorial
-
-
-        # aqui tem que mostrar o calulo 
-        print("* ",68*"="," *")
-        print("|"+36*" "+35*" "+"|")  
-        print(" "*30+f"{num1} + {num2} = {soma}")
-        print("|"+36*" "+35*" "+"|")  
-        print("* ",68*"="," *")
-        break
-    elif caracte == 'R.Q':  # Raiz quadrada
-        soma = (num1**0.5)
+        
+    elif caracter == 'F':  # Fatorial
+        fato = int(input("Digite um numero para fotorar: "))
+        cont = 1
+        som = 1
+        while cont <= fato:
+            som = som * cont
+            cont = cont + 1
+            # aqui tem que mostrar o calulo 
+            print("* ",68*"="," *")
+            print("|"+36*" "+35*" "+"|")  
+            print(" "*30+f"{fato} = {som}")
+            print("|"+36*" "+35*" "+"|")  
+            print("* ",68*"="," *")
+        
+    elif caracter == 'R.Q':  # Raiz quadrada
+        num4 = int(input("Digite o numero: "))
+        soma1 = (num4**0.5)
 
         # aqui tem que mostrar o calulo 
         print("* ",68*"="," *")
@@ -148,28 +162,30 @@ while True:
         print(" "*30+f"{num1} = {soma}")
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
-        break
-    elif caracte == 'A.Q':  # Area de um quadrado
-        soma = (num1*num2)
+        
+    elif caracter == 'A.Q':  # Area de um quadrado
+        nu1 = int(input("Digite o primeiro numero: "))
+        nu2 = int(input("Digite o primeiro numero: "))
+        som = (nu1*nu2)
 
         # aqui tem que mostrar o calulo 
         print("* ",68*"="," *")
         print("|"+36*" "+35*" "+"|")  
-        print(" "*30+f"'lado'{num1} * 'lado'{num2} = {soma}")
+        print(" "*30+f"'lado'{nu1} * 'lado'{nu2} = {som}")
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
-        break
+        
     elif caracter == 'V.C':  # Volume de um cubo
         a = float(input("Digite a altura do cubo:"))
-        soma = (a*a*a)
+        soma5 = (a*a*a)
 
         # aqui tem que mostrar o calulo 
         print("* ",68*"="," *")
         print("|"+36*" "+35*" "+"|")  
-        print(" "*30+f"A altura é {a} e o volume é {soma}")
+        print(" "*30+f"A altura é {a} e o volume é {soma5}")
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
-        break
+        
     elif caracter == 'M.4':  # Media de 4 numeros
         nota1 = float(input("Primeira nota: "))
         nota2 = float(input("Segunda nota: "))
@@ -183,7 +199,7 @@ while True:
         print(" "*30+f" as suas notas foram {nota1},{nota2},{nota3},{nota4} é a sua media foi :{soma}")
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
-        break
+        
 
     os.system('pause')
     os.system('cls')
