@@ -62,7 +62,7 @@ while True:
     print()
 
     print("* ",80*"="," *")
-    caracter = (input("Escolha uma operação especia\n \
+    caracter = (input("Escolha uma operação especial\n \
     Aviso:Apos escolher esta operaçâo desconsidere a escolha de numeros.\n \
     Operações permitidas: \nM.4 - Media de 4 números\nV.C - Volume de um cubo\nF - Fatorial\n" 
     "E - Exponenciaçâo\nA.Q - Area de um quadrado\nR.Q - raio de um quadrado\nDigite '0' para operações basicas\nEscolha:"))
@@ -72,7 +72,7 @@ while True:
     print()
 
     print("* ",68*"="," *")
-    print("|"+"Caso tenhe escolhido uma das operações especias desconcidere isso"+35*" ") 
+    print("|"+"Caso tenha escolhido uma das operações especias desconcidere isso"+35*" ") 
     print("|"+36*" "+35*" ") 
     num1 = int(input("|"+" Digite o primeiro numero:      "+" "))
     caracte = input("|"+" Digite a operação que deseja:  "+" ")
@@ -192,12 +192,17 @@ while True:
         nota3 = float(input("Terceira nota: "))
         nota4 = float(input("Quarta nota:  "))
         soma = ((nota1+nota2+nota3+nota4)/4)
-
+        txt = [nota1,nota2,nota3,nota4]
+        soma1 = sum(txt)
+        txt1 = len(txt)
+        print(soma1)
+        print(txt1,"ola")
         # aqui tem que mostrar o calulo 
         print("* ",68*"="," *")
         print("|"+36*" "+35*" "+"|")  
-        print(" "*30+f" as suas notas foram {nota1},{nota2},{nota3},{nota4} é a sua media foi :{soma}")
-        print("|"+36*" "+35*" "+"|")  
+        print("|"+" "+f" as suas notas foram {nota1}, {nota2}, {nota3}, {nota4} é a sua media foi : {soma}",end=" ")
+        print(" |")  
+        print("|"+36*" "+35*" "+"|") 
         print("* ",68*"="," *")
         
 
