@@ -134,7 +134,7 @@ while True:
         # aqui tem que mostrar o calulo 
         print("* ",68*"="," *")
         print("|"+36*" "+35*" "+"|")  
-        print("|"+" "*30+f"{num1} ** {num2} = {soma}"+32*" "+"|")
+        print("|"+" "*30+f"{n1} ** {n2} = {soma}"+32*" "+"|")
         print("|"+36*" "+35*" "+"|")  
         print("* ",68*"="," *")
         
