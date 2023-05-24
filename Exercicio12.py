@@ -1,4 +1,5 @@
 lnome = []
+lsobrenome = []
 lendereco = []
 lbairro = []
 lcidade = []
@@ -20,23 +21,19 @@ lserie = []
 lclasse = []
 lsexo = []
 lcor = []
-lmatricu = []
 lmedia = []
-lmatricula = []
-lnom1 = []
-lida = []
 lcont = []
 cont = 0
-matricula = 0
-c = 3
+
 
 while True:
-    if c == 3:
-        c = int(input("Digite 1 para realizar a matricula ou digite 2 para informar seus dados: "))
-    elif c == 2:
-        nome = str(input("Digite seu nome: "))
+  
+    c = int(input("Digite 1 cadastro\nDigite 2 para consulta: "))
+    if c == 1:
+        nome = (input("Digite seu nome: "))
         lnome.append(nome)
         sobrenome = input("Digite seu sobrenome: ")
+        lsobrenome.append(sobrenome)
         idade = input("Digite seu idade: ")
         lidade.append(idade)
         endereco = input("Digite seu endereço: ")
@@ -71,7 +68,6 @@ while True:
         lsexo.append(sexo)
         cor = input("Digite sua cor: ")
         lcor.append(cor)
-        
         nota1 = float(input("Digite a primeira nota: "))
         lnota1.append(nota1)
         nota2 = float(input("Digite a segunda nota: "))
@@ -83,23 +79,20 @@ while True:
         media = ((nota1+nota2+nota3+nota4)/4)
         lmedia.append(media)
         print(lmedia)
-
-        c = int(input("\nDigite '0' para sair\n'1' para Matricula\n'2' para continuar\n'3' para voltar ao menu:  "))
-
-    
-    elif c == 1:
-            
-            nom1 = input("Digite seu nome: ")
-            ida = input("Digite sua idade: ")
-            lnom1.append(nom1)
-            lida.append(ida)
-            cont = cont + 1
-            lcont.append(cont)
-            print(lnom1, lida, lcont)
-            
-            if cont == 10:
-                 break
-                
+        cont = cont + 1
+        lcont.append(cont)
+        c = int(input("Digite 1 para continuar\nDigite 2 para consulta\nDigite 0 para sair:  "))
+        
+    elif c == 2:
+        busca = int(input("Digite o numero da matricula: "))
+        print(lcont,lnome[busca-1],lsobrenome[busca-1],lidade[busca-1],lendereco[busca-1],lbairro[busca-1],lcidade[busca-1]\
+        ,lestado[busca-1],lpais[busca-1],lfone[busca-1],lcpf[busca-1],lpeso[busca-1],laltura[busca-1],lidade[busca-1]\
+        ,ln_do_cartao[busca-1],lemail[busca-1],lcep[busca-1],lnota1[busca-1],lnota2[busca-1],lnota3[busca-1],lnota4[busca-1]\
+        ,lserie[busca-1],lclasse[busca-1],lsexo[busca-1],lcor[busca-1],lmedia[busca-1])
+        c = int(input("Digite 1 para continuar o cadastro\nDigite 2 para continuar a consulta\nDigite 0 para sair: "))
+       
     elif c == 0:
+        print("Obrigado volte sempre...")
         break
-    
+    else:
+        print("\nNumero invalido\n-----Tente Novamente-----\n")
