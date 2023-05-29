@@ -85,44 +85,6 @@ e2 = "Bruno da costa roheweder"
 print(e2.count("a")) #conta a quantidade de caracters informado
 print("\n")
 
-s = "Olamundospeirãnt."
-print(s[9])
-print(s[2])
-print(s[1])
-print(s[3])
-print(s[10])
-print(s[11])
-print(s[12])
-print(s[2])
-print(s[8])
-
-print()
-
-print(s[5])
-print(s[2])
-print(s[7])
-
-print()
-
-print(s[15])
-print(s[10])
-print(s[3])
-
-print()
-
-print(s[3])
-print(s[4])
-print(s[5])
-print(s[6])
-print(s[11])
-print(s[2])
-print(s[1])
-
-
-print("\n")
-
-s1 = "Olá, mundo"
-print(s1[1:3])
 
 print("\n")
 
@@ -147,8 +109,3 @@ print("\n")
 somatxt = txt1 + txt2
 print(len(somatxt))
 print(somatxt)
-
-print("\n")
-
-nome = input("Escreva seu nome: ")
-print(nome[0:4]) #[0:4]: imprime as primeiras 4 letras, exe: [4:4] imprime a quarta letra e etc
