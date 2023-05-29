@@ -1,4 +1,4 @@
-'''lista = ["Olá", "Mundo", "Python", "é", "incrível",1,2,3]
+lista = ["Olá", "Mundo", "Python", "é", "incrível",1,2,3]
 
 # Extraindo múltiplos elementos da lista
 texto1 = lista[0]
@@ -223,7 +223,7 @@ while True:
         else:
             print("A sua turma é idosa!")
             break
-'''
+
 print()
 
 
