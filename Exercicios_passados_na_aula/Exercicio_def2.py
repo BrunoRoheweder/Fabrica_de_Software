@@ -34,21 +34,30 @@ lvalor = []
 lnum_dias = []
 lsoma = []
 lmulta = []
-def valorPagamento(valor_pre, num_dias_atras):
+soma = []
 
-    if dias > num_dias_atras:
-        soma_um_pocent = ((num_dias_atras*1)/100) + valor_pre
+
+def valorPagamento(valor_pre, num_dias_atras):
+    soma.append(valor_pre)
+
+    if num_dias > 0:
+        soma_um_pocent = (((num_dias_atras*1)/100) + valor_pre)
         lsoma.append(soma_um_pocent)
-      
-    if dias < num_dias_atras:
-        multa = (num_dias_atras*3)/100
+
+    if num_dias > 0 < 1:
+        multa = (valor_pre*3)/100
         lmulta.append(multa)
 
-    print(f"Valor a ser pago {lsoma + lmulta}")
+    print(f"Valor da multa {lmulta}\nValor a ser pago com dias de atraso {lsoma}\nValor sem multa e atraso {soma}")
+    return soma
 while True:
     valor = float(input("Valor das prestações: "))
+    if valor == 0:
+        print("Obrigado pela preferencia\nAqui estão os valores")
+        print(f"Valor da multa {lmulta}\nValor a ser pago com dias de atraso {lsoma}\nValor sem multa e atraso {soma}")
+        break
     num_dias = int(input("Numero de dias em atraso: "))
-
+    
 
     lvalor.append(valor)
     lnum_dias.append(lnum_dias)
