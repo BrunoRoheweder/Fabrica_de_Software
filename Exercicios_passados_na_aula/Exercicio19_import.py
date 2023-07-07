@@ -1,4 +1,4 @@
-from ex_import import*
+from Exercicios_passados_na_aula.ex_import19 import*
 a = int(input("Valor: "))
 b = int(input("Aumento: "))
 c = int(input("Desconto: "))
