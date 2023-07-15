@@ -1,5 +1,5 @@
 import os
-from class_controle_POO import *
+from controle import *
 
 marca = input("Digite a marca do controle: ")
 tv = ControleRemoto(marca)

@@ -1,4 +1,4 @@
-from class_Quadrado import*
+from quadrado import*
 from time import sleep 
 import os
 

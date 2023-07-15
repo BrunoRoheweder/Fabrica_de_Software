@@ -1,6 +1,3 @@
-from typing import Any
-
-
 class Pessoa():
     def __init__(self, nome, idade, endereco, cidade, estado):
         self.nome = nome

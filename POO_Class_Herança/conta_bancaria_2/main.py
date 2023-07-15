@@ -1,4 +1,4 @@
-from class_conta_bancaria import*
+from conta_bancaria import*
 from time import sleep
 from pwinput import pwinput
 import os

@@ -1,5 +1,5 @@
 import os
-from class_Vendedor_POO_20 import*
+from vendedor import*
 
 nome = input("Digite seu nome: ")
 vendas = int(input("Digite a quantidade de vendas: "))

@@ -1,4 +1,4 @@
-from class_Retangulo import*
+from retangulo import*
 from time import sleep
 import os
 
