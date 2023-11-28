@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Forms</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form> 
+            <fieldset>
+
+                <label for="fname">Primeiro nome: </label><br>
+                <input type="text" id="fname" name="fname" required><br>
+
+                <label for="fname">Ultimo nome:</label><br>
+                <input type="text" id="lname" name="lname" required><br><br>
+
+                <label for="fname">Digite</label><br>
+                <input placeholder="Quau o seu tipo sanginou!!! " required size="100">
+            </fieldset>
+            <br>
+            <fieldset>
+
+                <p>Qual sua linguagem preferida:</p>
+
+                <input type="radio" id="html" name="fav_linguagem" value="HTML">
+                <label for="html">HTML</label><br>
+
+                <input type="radio" id="css" name="fav_linguagem" value="CSS">
+                <label for="css">CSS</label><br>
+
+                <input type="radio" id="JavaScript" name="fav_linguagem" value="JavaScript">
+                <label for="JavaScript">JavaScript</label><br>
+
+            </fieldset>
+            <br>
+            <fieldset>
+
+                <p>Qual sua linguagem preferida:</p>
+
+                <input type="checkbox" id="html" name="fav_linguagem" value="HTML">
+                <label for="html">HTML</label><br>
+
+                <input type="checkbox" id="css" name="fav_linguagem" value="CSS">
+                <label for="css">CSS</label><br>
+
+                <input type="checkbox" id="JavaScript" name="fav_linguagem" value="JavaScript">
+                <label for="JavaScript">JavaScript</label><br>
+
+            </fieldset>
+            <br>
+            <fieldset>
+
+                <form action="/action_page.php">
+
+                    <label for="aname">Primeiro nome: </label><br>
+                    <input type="text" id="aname" name="aname" required><br>
+
+                    <label for="aname">Ultimo nome:</label><br>
+                    <input type="text" id="aname" name="aname" required><br><br>
+
+                    <input type="submit" value="Enviar">
+
+                </form>
+            </fieldset>
+            <br>
+            <fieldset>
+
+                <form id="pessoal">
+                    <legend>Dados pessoais</legend>
+                    <p>Nome: <input type="text" name="texto" id="campot" size="20" maxlength="10" placeholder="Nome Completo"></p>
+                </form>
+
+            </fieldset>
+            <br>
+            <fieldset>
+
+                <form id="email">
+                    <legend>E-mail</legend>
+                    <p>emial: <input type="email" name="email" id="campoe" size="20" maxlength="40" placeholder="exemplo@exemplo.com"></p>
+                </form>
+    
+            </fieldset>
+            <br>
+            <fieldset>
+
+                <form id="senha">
+                    <legend>Senha</legend>
+                    <p>senha: <input type="password" name="senha" id="campos" size="20" maxlength="10" placeholder="abc@123"></p>
+                </form>
+    
+            </fieldset>
+            <br>
+            <fieldset>
+
+                <form id="Data">
+                    <legend>Senha</legend>
+                    <p>data de nascimento: <input type="date" name="date" id="campod" size="20" maxlength="10" placeholder="00-00-0000"></p>
+                </form>
+    
+            </fieldset>
+        </form>
+
+    </body>
+
+</html>
