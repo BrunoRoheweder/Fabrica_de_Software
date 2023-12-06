@@ -1,0 +1,33 @@
+
+
+body{
+    background-color: white;
+    /* background: url(../imagens/maca.jpeg); */
+}
+
+h2{
+    color: blue;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Courier New';
+}
+
+p{
+    color: red;
+    font-weight: 500;
+    font-style: oblique;
+    font: 50px bold;
+    border-color: black;
+    box-shadow: 10px 10px 10px black;
+    
+}
+
+h3{
+    color: black;
+    position: absolute;
+    padding: 100px;
+    margin: 100px;
+    border-radius: 900px;
+    border-style: solid;
+    border-color: red;
+}
