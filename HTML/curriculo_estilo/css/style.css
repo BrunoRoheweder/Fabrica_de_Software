@@ -1,27 +1,32 @@
-/* body{
-    background-color: rgb(13, 17, 23);
-} */
-
 #name{
     position: absolute;
     top: 15px;
     left: 100px;
     font-family: Arial;
-}
+} 
 
 #img_user{
     top: 0px;
     position: absolute;
-    
-}
+} 
 
 #line{
     position: relative;
-    top: 80px;
+    top: 40px;
     border-style: solid;
+    margin: -8px;
+    color: lightslategray;
 }
 
-a{
+#line_two{
+    position: relative;
+    top: 80px;
+    border-style: solid;
+    margin: -8px;
+    color: lightslategray;
+}
+
+#menu_bar a{
     font-weight: 900;
     font: 18x bold;
     color: rgb(27, 129, 247);
@@ -32,69 +37,25 @@ a{
 #menu_bar{
     position: relative;
     padding: 5px;
-    top: 80px;
-}
-/* #resumo{
-    font-weight: 900;
-    font-size: 16px;
-    color: rgb(27, 129, 247);
-    position: relative;
-    top: 200px;
+    top: 25px;
+    text-align: right;
 }
 
-#educacao{
-    font-weight: 900;
-    font-size: 16px;
-    color: rgb(27, 129, 247);
+#sobre{
     position: relative;
-    top: 300px;
-}
-
-#tecnica{
-    font-weight: 900;
-    font-size: 16px;
-    color: rgb(27, 129, 247);
-    position: relative;
-    top: 400px;
-}
-
-#idioma{
-    font-weight: 900;
-    font-size: 16px;
-    color: rgb(27, 129, 247);
-    position: relative;
-    top: 500px;
-}
-
-#referencia{
-    font-weight: 900;
-    font-size: 16px;
-    color: rgb(27, 129, 247);
-    position: relative;
-    top: 600px;
-} */
-
-
-footer{
-    background-color: gray;
-    color: white;
-    font-size: 12px;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 98%;
-}
-
-sobre{
-    position: relative;
-    top: 40px;
+    top: 55px;
     left: 20px;
     font-family: Arial;
 }
 
-titulo{
-    position: relative;
-    top: -10px;
-    left: 180px;
+#rodape{
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: -8px;
 }
