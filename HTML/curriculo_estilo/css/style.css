@@ -1,62 +1,100 @@
-body{
+/* body{
     background-color: rgb(13, 17, 23);
+} */
+
+#name{
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    font-family: Arial;
+}
+
+#img_user{
+    top: 0px;
+    position: absolute;
+    
+}
+
+#line{
+    position: relative;
+    top: 80px;
+    border-style: solid;
 }
 
 a{
     font-weight: 900;
     font: 18x bold;
-    color: blue;
-    text-align: end;
-    padding: 10px;
+    color: rgb(27, 129, 247);
+    padding: 15px;
+    text-align: center;
 }
-h2{
+
+#menu_bar{
     position: relative;
-    top: 25px;
-    left: 120px;
-    font-family: Arial;
-    color: white;
+    padding: 5px;
+    top: 80px;
 }
-
-img{
-    left: 0px;
-    top: 50px;
-    position: absolute;
-    
-}
-
-hr{
+/* #resumo{
+    font-weight: 900;
+    font-size: 16px;
+    color: rgb(27, 129, 247);
     position: relative;
-    top: 70px;
-    border-style: solid;
-    color: white;
+    top: 200px;
 }
 
-p{
-    font-family: Arial;
+#educacao{
+    font-weight: 900;
+    font-size: 16px;
+    color: rgb(27, 129, 247);
+    position: relative;
+    top: 300px;
 }
 
-footer{
+#tecnica{
+    font-weight: 900;
+    font-size: 16px;
+    color: rgb(27, 129, 247);
     position: relative;
     top: 400px;
-    font-size: 12px;
-    text-align: left;
-    color: rgb(104, 141, 151);
-    background-color: rgb(22, 27, 34);
-    width: 100%;
-    padding: 20px;
 }
 
+#idioma{
+    font-weight: 900;
+    font-size: 16px;
+    color: rgb(27, 129, 247);
+    position: relative;
+    top: 500px;
+}
+
+#referencia{
+    font-weight: 900;
+    font-size: 16px;
+    color: rgb(27, 129, 247);
+    position: relative;
+    top: 600px;
+} */
+
+
+footer{
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+}
 
 sobre{
     position: relative;
     top: 40px;
     left: 20px;
-    color: white;
+    font-family: Arial;
 }
 
 titulo{
     position: relative;
     top: -10px;
     left: 180px;
-    color: white;
 }
