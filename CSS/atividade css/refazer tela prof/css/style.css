@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(245, 245, 245, 1);
+}
+
+#inferior_bar{
+
+    background-color: rgb(76, 175, 80);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 1;
+    width: 100%;
+    margin: -8px;
+    
+}
+
+#folha {
+
+    position: absolute;
+    top: 8mm;
+    left: 25%;
+    width: 210mm;
+    height: 440mm;
+    margin: 20mm; 
+    padding: 10mm; 
+    border-radius: 10px;
+    box-sizing: border-box; 
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    font-family: Arial;
+}
+
+#rodape{
+
+    background-color: rgb(51, 51, 51);
+    color: rgb(214, 214, 214);
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: -8px;
+}
+
+#formulario{
+    top: 1800px;
+    background-color: rgb(52, 152, 219);
+    font-size: 13px;
+    padding: 1%;
+    position: relative;
+    width: 100%;
+    margin: -8px;
+    text-align: left;
+    color: white;
+}
