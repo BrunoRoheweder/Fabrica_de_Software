@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-table {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.table {
+    height: 500px;
+    width: 500px;
+    background-color: white;
+}
+
+.quadrado1 {
+    height: 166.7px;
+    width: 166.7px;
+    background-color: aqua;
+}
+
+.quadrado2 {
+    height: 166.7px;
+    width: 166.7px;
+    background-color: blue;
+}
+
+.quadrado3 {
+    height: 166.7px;
+    width: 166.7px;
+    background-color: red;
+}
+
+.quadrado4 {
+    height: 166.7px;
+    width: 166.7px;
+    background-color: purple;
+}
+
+.quadrado5 {
+    height: 166.7px;
+    width: 166.7px;
+    background-color: black;
+}
+
+.quadrado6 {
+    height: 166.7px;
+    width: 166.7px;
+    background-color: chartreuse;
+}
+
+.quadrado7 {
+    height: 166.7px;
+    width: 166.7px;
+    background-color: darkgreen;
+}
+
+.quadrado8 {
+    height: 166.7px;
+    width: 166px;
+    background-color: pink;
+}
