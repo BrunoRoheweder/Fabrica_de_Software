@@ -66,6 +66,7 @@ var array = [[num1],[num2],[num3],
 numerosSorteados.forEach(function(valor, index) {
     array[index][0] = valor;
     array[8][0] = 0;
+    // array[6][0] = 0;
     // console.log(array[0][0]);
 });
 
@@ -200,6 +201,14 @@ function mover_7() {
             }
             else if (array[7][0] == 0) {
                 // Condição de movimento
+                array[7][0] = array[6][0]
+                array[6][0] = 0
+
+                var numero8 = document.getElementById("num8");
+                numero8.innerHTML = "8"
+
+                var numero7 = document.getElementById("num7");
+                numero7.innerHTML = " "
             }
         }
     })
@@ -214,13 +223,20 @@ function mover_8() {
             }
             else if (array[6][0] == 0) {
                 // Condição de movimento
-                // alert("1986237ajshdjaks")
+                array[6][0] = array[7][0]
+                array[7][0] = 0
+
+                var numero7 = document.getElementById("num7");
+                numero7.innerHTML = "8"
+
+                var numero8 = document.getElementById("num8");
+                numero8.innerHTML = " "
             }
             else if (array[8][0] == 0) {
                 // Condição de movimento
-                // alert("Deu certo ou quase")
 
                 array[8][0] = array[7][0]
+                array[7][0] = 0
 
                 var numero8 = document.getElementById("num8");
                 numero8.innerHTML = " "
@@ -233,20 +249,19 @@ function mover_8() {
 }
 
 function mover_9() {
-
-    alert("Ola")
     array.forEach(function(valor, index) {
 
         if (index == 8) { // index 6 numero 7
             if (array[7][0] == 0) {
                 // Condição de movimento
                 array[7][0] = array[8][0]
+                array[8][0] = 0
 
-                var numero8 = document.getElementById("num9");
-                numero8.innerHTML = " "
+                var numero9 = document.getElementById("num9");
+                numero9.innerHTML = " "
 
-                var numero9 = document.getElementById("num8");
-                numero9.innerHTML = "8"
+                var numero8 = document.getElementById("num8");
+                numero8.innerHTML = "8"
             }
             else if (array[5][0] == 0) {
                 // Condição de movimento
