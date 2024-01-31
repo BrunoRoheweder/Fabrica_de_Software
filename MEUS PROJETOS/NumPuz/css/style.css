@@ -96,6 +96,8 @@
     height: 165px;
     width: 165px;
     background-color: var(--background-color);
+    text-align: center;
+    font-size: 8rem;
 }
 
 /* BOTÕES */
@@ -150,6 +152,13 @@
 }
 
 .quadrado8 button {
+    height: 100%;
+    width: 100%;
+    font-size: 8rem;
+    border: 3px black solid;
+}
+
+.quadrado9 button {
     height: 100%;
     width: 100%;
     font-size: 8rem;
