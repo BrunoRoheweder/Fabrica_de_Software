@@ -166,7 +166,7 @@ function mover_9() {
 
 //  CONFIRMANDO QUE TODOS ESTÃO IGUAIS OU SEJA TODOS ESTÃO NOS DEVIDOS LUGARES
 //  VERIFICAÇÃO 
-function verificar() {
+function pronto() {
     var array_confirm = [[1],[2],[3],
                         [4],[5],[6],
                         [7],[8],[0]];
@@ -181,16 +181,13 @@ function verificar() {
 
     if (todosConfirmados) {
         alert("Você Ganhou");
-        var confirmar = confirm("Jogar novamente")
-        if (confirmar) {
-            location.reload();
-        }
+    } else {
+        alert("Todos os numeros deve estar em sequencia pedida")
     }
     
-    // else {
-        //     console.log("Pelo menos um número não está confirmado");
-        // }
-        //  FIM DA VERIFICAÇÃO  
 }
+//  FIM DA VERIFICAÇÃO  
 
-document.addEventListener("click", verificar)
+function recarregar() {
+    location.reload();
+};

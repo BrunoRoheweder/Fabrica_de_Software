@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Cifra de Cesar</title>
+    </head>
+    <body>
+        <div class="container-campo-cifra">
+            <div class="campo-cifra">
+                <input type="text" class="input-gerar" placeholder="Digite a frase aqui...">
+                <button id="gerar" onclick="gerar()">Gerar</button>
+                <div class="textarea-gerar">
+                    <textarea name="input-big-gerar" id="input-big-gerar" cols="30" rows="10"></textarea>
+                </div>
+
+                <input type="text" class="input-resolver" placeholder="Digite a frase aqui...">
+                <button id="resolver" onclick="resolver()">Resolver</button>
+                <div class="textarea-resolver">
+                    <textarea name="input-big-resolver" id="input-big-resolver" cols="30" rows="10"></textarea>
+                </div>
+
+            </div>
+        </div>
+    </body>
+    <script src="./js/script.js"></script>
+</html>
