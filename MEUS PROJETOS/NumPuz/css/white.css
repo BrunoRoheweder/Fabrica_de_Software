@@ -17,8 +17,8 @@
 /* TABULEIRO */
 
 .table {
-    height: 495px;
-    width: 495px;
+    height: 513px;
+    width: 513px;
     background-color: white;
     border: 2px black solid;
     display: flex;
@@ -34,6 +34,7 @@
     background-color: var(--background-color);
     text-align: center;
     font-size: 8rem;
+    border: 3px black solid;
 }
 
 .quadrado2 {
@@ -42,6 +43,7 @@
     background-color: var(--background-color);
     text-align: center;
     font-size: 8rem;
+    border: 3px black solid;
 }
 
 .quadrado3 {
@@ -50,6 +52,7 @@
     background-color: var(--background-color);
     text-align: center;
     font-size: 8rem;
+    border: 3px black solid;
 }
 
 .quadrado4 {
@@ -58,6 +61,7 @@
     background-color: var(--background-color);
     text-align: center;
     font-size: 8rem;
+    border: 3px black solid;
 }
 
 .quadrado5 {
@@ -66,6 +70,7 @@
     background-color: var(--background-color);
     text-align: center;
     font-size: 8rem;
+    border: 3px black solid;
 }
 
 .quadrado6 {
@@ -74,6 +79,7 @@
     background-color: var(--background-color);
     text-align: center;
     font-size: 8rem;
+    border: 3px black solid;
 }
 
 .quadrado7 {
@@ -82,6 +88,7 @@
     background-color: var(--background-color);
     text-align: center;
     font-size: 8rem;
+    border: 3px black solid;
 }
 
 .quadrado8 {
@@ -90,6 +97,7 @@
     background-color: var(--background-color);
     text-align: center;
     font-size: 8rem;
+    border: 3px black solid;
 }
 
 .quadrado9 {
@@ -98,6 +106,7 @@
     background-color: var(--background-color);
     text-align: center;
     font-size: 8rem;
+    border: 3px black solid;
 }
 
 /* BOTÕES */
@@ -106,61 +115,60 @@
     height: 100%;
     width: 100%;
     font-size: 8rem;
-    border: 3px black solid;
 }
 
 .quadrado2 button {
     height: 100%;
     width: 100%;
     font-size: 8rem;
-    border: 3px black solid;
 }
 
 .quadrado3 button {
     height: 100%;
     width: 100%;
     font-size: 8rem;
-    border: 3px black solid;
 }
 
 .quadrado4 button {
     height: 100%;
     width: 100%;
     font-size: 8rem;
-    border: 3px black solid;
 }
 
 .quadrado5 button {
     height: 100%;
     width: 100%;
     font-size: 8rem;
-    border: 3px black solid;
 }
 
 .quadrado6 button {
     height: 100%;
     width: 100%;
     font-size: 8rem;
-    border: 3px black solid;
 }
 
 .quadrado7 button {
     height: 100%;
     width: 100%;
     font-size: 8rem;
-    border: 3px black solid;
 }
 
 .quadrado8 button {
     height: 100%;
     width: 100%;
     font-size: 8rem;
-    border: 3px black solid;
 }
 
 .quadrado9 button {
     height: 100%;
     width: 100%;
     font-size: 8rem;
-    border: 3px black solid;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+button {
+    height: 40px;
+    width: 90px;
+    border: 2px black solid;
 }
