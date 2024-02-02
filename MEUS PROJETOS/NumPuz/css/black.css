@@ -3,17 +3,19 @@
     padding: 0;
 }
 
-html {
+.html {
     background-color: black;
 }
 
-body {
+.body {
     width: 100%;
     height: 600px;
 }
 
 :root {
-    --background-color: transparent;
+    --background-color-trans: transparent;
+    --background-color-white: white;
+    --background-color-black: black;
     --color: white;
 }
 
@@ -29,8 +31,8 @@ body {
 .table {
     height: 468px;
     width: 468px;
-    background-color: black;
-    border: 2px white solid;
+    background-color: var(--background-color-black);
+    border: 2px var(--background-color-white) solid;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -41,90 +43,90 @@ body {
 .quadrado1 {
     height: 150px;
     width: 150px;
-    background-color: var(--background-color);
+    background-color: var(--background-color-trans);
     text-align: center;
     font-size: 8rem;
-    border: 3px white solid;
+    border: 3px var(--background-color-white) solid;
     color: var(--color);
 }
 
 .quadrado2 {
     height: 150px;
     width: 150px;
-    background-color: var(--background-color);
+    background-color: var(--background-color-trans);
     text-align: center;
     font-size: 8rem;
-    border: 3px white solid;
+    border: 3px var(--background-color-white) solid;
     color: var(--color);
 }
 
 .quadrado3 {
     height: 150px;
     width: 150px;
-    background-color: var(--background-color);
+    background-color: var(--background-color-trans);
     text-align: center;
     font-size: 8rem;
-    border: 3px white solid;
+    border: 3px var(--background-color-white) solid;
     color: var(--color);
 }
 
 .quadrado4 {
     height: 150px;
     width: 150px;
-    background-color: var(--background-color);
+    background-color: var(--background-color-trans);
     text-align: center;
     font-size: 8rem;
-    border: 3px white solid;
+    border: 3px var(--background-color-white) solid;
     color: var(--color);
 }
 
 .quadrado5 {
     height: 150px;
     width: 150px;
-    background-color: var(--background-color);
+    background-color: var(--background-color-trans);
     text-align: center;
     font-size: 8rem;
-    border: 3px white solid;
+    border: 3px var(--background-color-white) solid;
     color: var(--color);
 }
 
 .quadrado6 {
     height: 150px;
     width: 150px;
-    background-color: var(--background-color);
+    background-color: var(--background-color-trans);
     text-align: center;
     font-size: 8rem;
-    border: 3px white solid;
+    border: 3px var(--background-color-white) solid;
     color: var(--color);
 }
 
 .quadrado7 {
     height: 150px;
     width: 150px;
-    background-color: var(--background-color);
+    background-color: var(--background-color-trans);
     text-align: center;
     font-size: 8rem;
-    border: 3px white solid;
+    border: 3px var(--background-color-white) solid;
     color: var(--color);
 }
 
 .quadrado8 {
     height: 150px;
     width: 150px;
-    background-color: var(--background-color);
+    background-color: var(--background-color-trans);
     text-align: center;
     font-size: 8rem;
-    border: 3px white solid;
+    border: 3px var(--background-color-white) solid;
     color: var(--color);
 }
 
 .quadrado9 {
     height: 150px;
     width: 150px;
-    background-color: var(--background-color);
+    background-color: var(--background-color-trans);
     text-align: center;
     font-size: 8rem;
-    border: 3px white solid;
+    border: 3px var(--background-color-white) solid;
     color: var(--color);
 }
 
@@ -182,7 +184,7 @@ body {
     height: auto;
     width: auto;
     font-size: 8rem;
-    background-color: transparent;
+    background-color: var(--background-color-trans);
     border-color: transparent;
 }
 
@@ -190,4 +192,35 @@ button {
     height: 40px;
     width: 90px;
     border: 2px black solid;
+}
+
+.container-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.jogar {
+    height: 40px;
+    border-radius: 1rem;
+    padding: 25px;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    background-color: rgb(138, 65, 34);
+}
+
+.menu h2 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin: 30px;
 }
