@@ -22,8 +22,8 @@ html {
 /* TABULEIRO */
 
 .table {
-    max-height: 510px;
-    max-width: 508.4px;
+    max-height: 511px;
+    max-width: 509px;
     background-color: black;
     border: 2px white solid;
     display: flex;

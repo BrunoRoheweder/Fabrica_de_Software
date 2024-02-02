@@ -17,8 +17,8 @@
 /* TABULEIRO */
 
 .table {
-    height: 510px;
-    width: 508.4px;
+    max-height: 511px;
+    max-width: 509px;
     background-color: white;
     border: 2px black solid;
     display: flex;
