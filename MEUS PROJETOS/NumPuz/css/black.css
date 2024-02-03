@@ -28,7 +28,37 @@
 
 /* TABULEIRO */
 
-.table {
+.table-3x3 {
+    height: 468px;
+    width: 468px;
+    background-color: var(--background-color-black);
+    border: 2px var(--background-color-white) solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.table-4x4 {
+    height: 800px;
+    width: 700px;
+    background-color: var(--background-color-black);
+    border: 2px var(--background-color-white) solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.table-5x5 {
+    height: 468px;
+    width: 468px;
+    background-color: var(--background-color-black);
+    border: 2px var(--background-color-white) solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.table-6x6 {
     height: 468px;
     width: 468px;
     background-color: var(--background-color-black);
@@ -130,6 +160,216 @@
     color: var(--color);
 }
 
+.quadrado10 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado11 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado12 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado13 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado14 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado15 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado16 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado17 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado18 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado19 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado20 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado21 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado22 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado23 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado24 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado25 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado26 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado27 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado28 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado29 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
+.quadrado30 {
+    height: 150px;
+    width: 150px;
+    background-color: var(--background-color-trans);
+    text-align: center;
+    font-size: 8rem;
+    border: 3px var(--background-color-white) solid;
+    color: var(--color);
+}
+
 /* BOTÕES */
 
 .quadrado1 button {
@@ -181,6 +421,174 @@
 }
 
 .quadrado9 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado10 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado11 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado12 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado13 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado14 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado15 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado16 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado17 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado18 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado19 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado20 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado21 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado22 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado23 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado24 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado25 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado26 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado27 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado28 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado29 button {
+    height: auto;
+    width: auto;
+    font-size: 8rem;
+    background-color: var(--background-color-trans);
+    border-color: transparent;
+}
+
+.quadrado30 button {
     height: auto;
     width: auto;
     font-size: 8rem;
