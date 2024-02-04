@@ -250,10 +250,10 @@ function mover_1() {
     mover_4x4(0, 4);
 
     mover_5x5(0, 1);
-    mover_5x5(0, 3);
+    mover_5x5(0, 5);
 
     mover_6x6(0, 1);
-    mover_6x6(0, 3);
+    mover_6x6(0, 5);
 };
 
 function mover_2() {
@@ -267,11 +267,11 @@ function mover_2() {
     
     mover_5x5(1, 0);
     mover_5x5(1, 2);
-    mover_5x5(1, 4);
+    mover_5x5(1, 6);
     
     mover_6x6(1, 0);
     mover_6x6(1, 2);
-    mover_6x6(1, 4);
+    mover_6x6(1, 7);
 };
 
 function mover_3() {
@@ -283,12 +283,12 @@ function mover_3() {
     mover_4x4(2, 6);
     
     mover_5x5(2, 1);
-    mover_5x5(2, 5);
     mover_5x5(2, 3);
+    mover_5x5(2, 7);
     
     mover_6x6(2, 1);
-    mover_6x6(2, 5);
     mover_6x6(2, 3);
+    mover_6x6(2, 8);
 };
 
 function mover_4() {
@@ -300,10 +300,12 @@ function mover_4() {
     mover_4x4(3, 7);
     
     mover_5x5(3, 2);
-    mover_5x5(3, 7);
+    mover_5x5(3, 4);
+    mover_5x5(3, 8);
     
     mover_6x6(3, 2);
-    mover_6x6(3, 7);
+    mover_6x6(3, 4);
+    mover_6x6(3, 9);
 };
 
 function mover_5() {
@@ -316,13 +318,12 @@ function mover_5() {
     mover_4x4(4, 5);
     mover_4x4(4, 8);
     
-    mover_5x5(4, 0);
-    mover_5x5(4, 5);
-    mover_5x5(4, 8);
+    mover_5x5(4, 3);
+    mover_5x5(4, 4);
     
-    mover_6x6(4, 0);
+    mover_6x6(4, 3);
     mover_6x6(4, 5);
-    mover_6x6(4, 8);
+    mover_6x6(4, 10);
 };
 
 function mover_6() {
@@ -335,15 +336,12 @@ function mover_6() {
     mover_4x4(5, 6);
     mover_4x4(5, 9);
     
-    mover_5x5(5, 1);
-    mover_5x5(5, 4);
+    mover_5x5(5, 0);
     mover_5x5(5, 6);
-    mover_5x5(5, 9);
+    mover_5x5(5, 10);
     
-    mover_6x6(5, 1);
     mover_6x6(5, 4);
-    mover_6x6(5, 6);
-    mover_6x6(5, 9);
+    mover_6x6(5, 11);
 };
 
 function mover_7() {
@@ -355,15 +353,14 @@ function mover_7() {
     mover_4x4(6, 7);
     mover_4x4(6, 10);
     
-    mover_5x5(6, 2);
+    mover_5x5(6, 1);
     mover_5x5(6, 5);
     mover_5x5(6, 7);
-    mover_5x5(6, 10);
+    mover_5x5(6, 11);
     
-    mover_6x6(6, 2);
-    mover_6x6(6, 5);
+    mover_6x6(6, 0);
     mover_6x6(6, 7);
-    mover_6x6(6, 10);
+    mover_6x6(6, 12);
 };
 
 function mover_8() {
@@ -375,13 +372,15 @@ function mover_8() {
     mover_4x4(7, 6);
     mover_4x4(7, 11);
     
-    mover_5x5(7, 3);
+    mover_5x5(7, 2);
     mover_5x5(7, 6);
-    mover_5x5(7, 11);
+    mover_5x5(7, 8);
+    mover_5x5(7, 12);
     
-    mover_6x6(7, 3);
+    mover_6x6(7, 1);
     mover_6x6(7, 6);
-    mover_6x6(7, 11);
+    mover_6x6(7, 8);
+    mover_6x6(7, 13);
 };
 
 function mover_9() {
@@ -392,13 +391,15 @@ function mover_9() {
     mover_4x4(8, 9);
     mover_4x4(8, 12);
     
-    mover_5x5(8, 4);
-    mover_5x5(8, 10);
-    mover_5x5(8, 12);
+    mover_5x5(8, 3);
+    mover_5x5(8, 7);
+    mover_5x5(8, 9);
+    mover_5x5(8, 13);
     
     mover_6x6(8, 2);
-    mover_6x6(8, 5);
     mover_6x6(8, 7);
+    mover_6x6(8, 9);
+    mover_6x6(8, 14);
 };
 // fim 3x3
 
@@ -411,12 +412,13 @@ function mover_10() {
     mover_4x4(9, 13);
     
     mover_5x5(9, 4);
-    mover_5x5(9, 10);
-    mover_5x5(9, 12);
+    mover_5x5(9, 8);
+    mover_5x5(9, 14);
     
-    mover_6x6(9, 2);
-    mover_6x6(9, 5);
-    mover_6x6(9, 7);
+    mover_6x6(9, 3);
+    mover_6x6(9, 8);
+    mover_6x6(9, 10);
+    mover_6x6(9, 15);
 };
 
 function mover_11() {
@@ -426,15 +428,14 @@ function mover_11() {
     mover_4x4(10, 11);
     mover_4x4(10, 14);
     
-    mover_5x5(10, 6);
-    mover_5x5(10, 10);
-    mover_5x5(10, 12);
-    mover_5x5(10, 14);
+    mover_5x5(10, 5);
+    mover_5x5(10, 11);
+    mover_5x5(10, 15);
     
-    mover_6x6(10, 6);
-    mover_6x6(10, 10);
-    mover_6x6(10, 12);
-    mover_6x6(10, 14);
+    mover_6x6(10, 4);
+    mover_6x6(10, 9);
+    mover_6x6(10, 11);
+    mover_6x6(10, 16);
 };
 
 function mover_12() {
@@ -443,13 +444,14 @@ function mover_12() {
     mover_4x4(11, 10);
     mover_4x4(11, 15);
     
-    mover_5x5(11, 7);
-    mover_5x5(11, 11);
-    mover_5x5(11, 13);
+    mover_5x5(11, 6);
+    mover_5x5(11, 10);
+    mover_5x5(11, 12);
+    mover_5x5(11, 16);
     
-    mover_6x6(11, 7);
-    mover_6x6(11, 11);
-    mover_6x6(11, 13);
+    mover_6x6(11, 5);
+    mover_6x6(11, 10);
+    mover_6x6(11, 17);
 };
 
 function mover_13() {
@@ -457,27 +459,31 @@ function mover_13() {
     mover_4x4(12, 8);
     mover_4x4(12, 13);
 
-    mover_5x5(12, 4);
-    mover_5x5(12, 10);
-    mover_5x5(12, 12);
+    mover_5x5(12, 7);
+    mover_5x5(12, 11);
+    mover_5x5(12, 13);
+    mover_5x5(12, 17);
     
-    mover_6x6(12, 2);
-    mover_6x6(12, 5);
-    mover_6x6(12, 7);
+    mover_6x6(12, 6);
+    mover_6x6(12, 13);
+    mover_6x6(12, 18);
 };
+
 function mover_14() {
                 
     mover_4x4(13, 9);
     mover_4x4(13, 12);
     mover_4x4(13, 14);
     
-    mover_5x5(13, 4);
-    mover_5x5(13, 10);
+    mover_5x5(13, 8);
     mover_5x5(13, 12);
+    mover_5x5(13, 14);
+    mover_5x5(13, 18);
     
-    mover_6x6(13, 2);
-    mover_6x6(13, 5);
     mover_6x6(13, 7);
+    mover_6x6(13, 12);
+    mover_6x6(13, 14);
+    mover_6x6(13, 19);
 };
 
 function mover_15() {
@@ -486,78 +492,165 @@ function mover_15() {
     mover_4x4(14, 13);
     mover_4x4(14, 15);
     
-    mover_5x5(14, 4);
-    mover_5x5(14, 10);
-    mover_5x5(14, 12);
+    mover_5x5(14, 9);
+    mover_5x5(14, 13);
+    mover_5x5(14, 19);
     
-    mover_6x6(14, 2);
-    mover_6x6(14, 5);
-    mover_6x6(14, 7);
+    mover_6x6(14, 8);
+    mover_6x6(14, 13);
+    mover_6x6(14, 15);
+    mover_6x6(14, 20);
 };
+
 function mover_16() {
 
     mover_4x4(15, 11);
     mover_4x4(15, 14);
     
-    mover_5x5(9, 4);
-    mover_5x5(9, 10);
-    mover_5x5(9, 12);
+    mover_5x5(15, 10);
+    mover_5x5(15, 16);
+    mover_5x5(15, 20);
     
-    mover_6x6(9, 2);
-    mover_6x6(9, 5);
-    mover_6x6(9, 7);
+    mover_6x6(15, 9);
+    mover_6x6(15, 14);
+    mover_6x6(15, 16);
+    mover_6x6(15, 21);
 };
 // fim 4x4
 
 // inicio 5x5
 function mover_17() {
-
+    
+    mover_5x5(16, 11);
+    mover_5x5(16, 15);
+    mover_5x5(16, 17);
+    mover_5x5(16, 21);
+    
+    mover_6x6(16, 10);
+    mover_6x6(16, 15);
+    mover_6x6(16, 17);
+    mover_6x6(16, 22);
 };
 
 function mover_18() {
-
+    
+    mover_5x5(17, 12);
+    mover_5x5(17, 16);
+    mover_5x5(17, 18);
+    mover_5x5(17, 22);
+    
+    mover_6x6(17, 14);
+    mover_6x6(17, 16);
+    mover_6x6(17, 23);
 };
 
 function mover_19() {
-
+    
+    mover_5x5(18, 13);
+    mover_5x5(18, 17);
+    mover_5x5(18, 19);
+    mover_5x5(18, 23);
+    
+    mover_6x6(18, 12);
+    mover_6x6(18, 19);
+    mover_6x6(18, 24);
 };
 
-function mover_20() {
-
+function mover_20() { 
+    
+    mover_5x5(19, 14);
+    mover_5x5(19, 18);
+    mover_5x5(19, 24);
+    
+    mover_6x6(19, 13);
+    mover_6x6(19, 18);
+    mover_6x6(19, 20);
+    mover_6x6(19, 25);
 };
-function mover_21() {
 
+function mover_21() { // continuar daqui
+    
+    mover_5x5(20, 4);
+    mover_5x5(20, 10);
+    mover_5x5(20, 12);
+    
+    mover_6x6(20, 2);
+    mover_6x6(20, 5);
+    mover_6x6(20, 7);
 };
 
 function mover_22() {
-
+    
+    mover_5x5(21, 4);
+    mover_5x5(21, 10);
+    mover_5x5(21, 12);
+    
+    mover_6x6(21, 2);
+    mover_6x6(21, 5);
+    mover_6x6(21, 7);
 };
-function mover_23() {
 
+function mover_23() {
+    
+    mover_5x5(22, 4);
+    mover_5x5(22, 10);
+    mover_5x5(22, 12);
+    
+    mover_6x6(22, 2);
+    mover_6x6(22, 5);
+    mover_6x6(22, 7);
 };
 
 function mover_24() {
-
+    
+    mover_5x5(23, 4);
+    mover_5x5(23, 10);
+    mover_5x5(23, 12);
+    
+    mover_6x6(23, 2);
+    mover_6x6(23, 5);
+    mover_6x6(23, 7);
 };
-function mover_25() {
 
+function mover_25() {
+    
+    mover_5x5(24, 4);
+    mover_5x5(24, 10);
+    mover_5x5(24, 12);
+    
+    mover_6x6(24, 2);
+    mover_6x6(24, 5);
+    mover_6x6(24, 7);
 };
 // fim 5x5
 
 // inicio 6x6
 function mover_26() {
-
+    
+    mover_6x6(25, 2);
+    mover_6x6(25, 5);
+    mover_6x6(25, 7);
 };
 
 function mover_27() {
-
+    
+    mover_6x6(26, 2);
+    mover_6x6(26, 5);
+    mover_6x6(26, 7);
 };
-function mover_28() {
 
+function mover_28() {
+    
+    mover_6x6(27, 2);
+    mover_6x6(27, 5);
+    mover_6x6(27, 7);
 };
 
 function mover_30() {
-
+    
+    mover_6x6(28, 2);
+    mover_6x6(28, 5);
+    mover_6x6(28, 7);
 };
 // fim 6x6
 
