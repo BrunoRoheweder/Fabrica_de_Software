@@ -247,7 +247,7 @@ function mover_1() {
     mover_3x3(0, 3);
 
     mover_4x4(0, 1);
-    mover_4x4(0, 3);
+    mover_4x4(0, 4);
 
     mover_5x5(0, 1);
     mover_5x5(0, 3);
@@ -263,7 +263,7 @@ function mover_2() {
     
     mover_4x4(1, 0);
     mover_4x4(1, 2);
-    mover_4x4(1, 4);
+    mover_4x4(1, 5);
     
     mover_5x5(1, 0);
     mover_5x5(1, 2);
@@ -279,8 +279,8 @@ function mover_3() {
     mover_3x3(2, 5);
     
     mover_4x4(2, 1);
-    mover_4x4(2, 5);
     mover_4x4(2, 3);
+    mover_4x4(2, 6);
     
     mover_5x5(2, 1);
     mover_5x5(2, 5);
@@ -389,7 +389,7 @@ function mover_9() {
     mover_3x3(8, 7);
         
     mover_4x4(8, 4);
-    mover_4x4(8, 10);
+    mover_4x4(8, 9);
     mover_4x4(8, 12);
     
     mover_5x5(8, 4);
@@ -406,8 +406,8 @@ function mover_9() {
 function mover_10() {
             
     mover_4x4(9, 5);
-    mover_4x4(9, 9);
-    mover_4x4(9, 11);
+    mover_4x4(9, 8);
+    mover_4x4(9, 10);
     mover_4x4(9, 13);
     
     mover_5x5(9, 4);
@@ -422,8 +422,8 @@ function mover_10() {
 function mover_11() {
          
     mover_4x4(10, 6);
-    mover_4x4(10, 10);
-    mover_4x4(10, 12);
+    mover_4x4(10, 9);
+    mover_4x4(10, 11);
     mover_4x4(10, 14);
     
     mover_5x5(10, 6);
@@ -454,8 +454,8 @@ function mover_12() {
 
 function mover_13() {
 
-    mover_4x4(12, 9);
-    mover_4x4(12, 14);
+    mover_4x4(12, 8);
+    mover_4x4(12, 13);
 
     mover_5x5(12, 4);
     mover_5x5(12, 10);
@@ -482,9 +482,9 @@ function mover_14() {
 
 function mover_15() {
 
-    mover_4x4(14, 15);
-    mover_4x4(14, 14);
     mover_4x4(14, 10);
+    mover_4x4(14, 13);
+    mover_4x4(14, 15);
     
     mover_5x5(14, 4);
     mover_5x5(14, 10);
