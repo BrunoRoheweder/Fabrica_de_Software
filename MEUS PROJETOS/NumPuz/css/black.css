@@ -39,8 +39,8 @@
 }
 
 .table-4x4 {
-    height: 800px;
-    width: 700px;
+    height: 630px;
+    width: 625px;
     background-color: var(--background-color-black);
     border: 2px var(--background-color-white) solid;
     display: flex;
@@ -49,8 +49,8 @@
 }
 
 .table-5x5 {
-    height: 468px;
-    width: 468px;
+    height: 790px;
+    width: 781px;
     background-color: var(--background-color-black);
     border: 2px var(--background-color-white) solid;
     display: flex;
@@ -59,8 +59,8 @@
 }
 
 .table-6x6 {
-    height: 468px;
-    width: 468px;
+    height: 970px;
+    width: 940px;
     background-color: var(--background-color-black);
     border: 2px var(--background-color-white) solid;
     display: flex;
@@ -70,7 +70,7 @@
 
 /* QUADRADOS */
 
-.quadrado1 {
+.quadrado {
     height: 150px;
     width: 150px;
     background-color: var(--background-color-trans);
@@ -78,9 +78,10 @@
     font-size: 8rem;
     border: 3px var(--background-color-white) solid;
     color: var(--color);
+    cursor: pointer;
 }
 
-.quadrado2 {
+.quadrado0 {
     height: 150px;
     width: 150px;
     background-color: var(--background-color-trans);
@@ -88,339 +89,19 @@
     font-size: 8rem;
     border: 3px var(--background-color-white) solid;
     color: var(--color);
+    cursor: pointer;
 }
 
-.quadrado3 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado4 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado5 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado6 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado7 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado8 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado9 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado10 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado11 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado12 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado13 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado14 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado15 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado16 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado17 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado18 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado19 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado20 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado21 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado22 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado23 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado24 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado25 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado26 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado27 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado28 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado29 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
-
-.quadrado30 {
-    height: 150px;
-    width: 150px;
-    background-color: var(--background-color-trans);
-    text-align: center;
-    font-size: 8rem;
-    border: 3px var(--background-color-white) solid;
-    color: var(--color);
-}
 
 /* BOTÕES */
 
-.quadrado1 button {
+.quadrado button {
     height: auto;
     width: auto;
     font-size: 8rem;
 }
 
-.quadrado2 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-}
-
-.quadrado3 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-}
-
-.quadrado4 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-}
-
-.quadrado5 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-}
-
-.quadrado6 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-}
-
-.quadrado7 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-}
-
-.quadrado8 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-}
-
-.quadrado9 button {
+.quadrado0 button {
     height: auto;
     width: auto;
     font-size: 8rem;
@@ -428,173 +109,6 @@
     border-color: transparent;
 }
 
-.quadrado10 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado11 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado12 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado13 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado14 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado15 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado16 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado17 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado18 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado19 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado20 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado21 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado22 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado23 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado24 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado25 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado26 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado27 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado28 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado29 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
-
-.quadrado30 button {
-    height: auto;
-    width: auto;
-    font-size: 8rem;
-    background-color: var(--background-color-trans);
-    border-color: transparent;
-}
 
 button {
     height: 40px;
@@ -621,9 +135,23 @@ button {
 
 .menu {
     width: 20rem;
-    height: 20rem;
+    height: 30rem;
     border-radius: 1rem;
     background-color: rgb(138, 65, 34);
+}
+
+.menu-botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-botao button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 15px;
 }
 
 .menu h2 {
