@@ -20,17 +20,19 @@
 }
 
 .container-table {
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100vh; */
+    display: flex;
+    flex-direction: column;
 }
 
 /* TABULEIRO */
 
 .table-3x3 {
-    height: 468px;
-    width: 468px;
+    /* height: 345px; */
+    width: 348px;
     background-color: var(--background-color-black);
     border: 2px var(--background-color-white) solid;
     display: flex;
@@ -39,8 +41,8 @@
 }
 
 .table-4x4 {
-    height: 630px;
-    width: 625px;
+    /* height: 471px; */
+    width: 464px;
     background-color: var(--background-color-black);
     border: 2px var(--background-color-white) solid;
     display: flex;
@@ -49,8 +51,8 @@
 }
 
 .table-5x5 {
-    height: 790px;
-    width: 781px;
+    /* height: 790px; */
+    width: 580px;
     background-color: var(--background-color-black);
     border: 2px var(--background-color-white) solid;
     display: flex;
@@ -71,22 +73,22 @@
 /* QUADRADOS */
 
 .quadrado {
-    height: 150px;
-    width: 150px;
+    width: 110px;
+    height: 110px;
     background-color: var(--background-color-trans);
     text-align: center;
-    font-size: 8rem;
+    font-size: 5rem;
     border: 3px var(--background-color-white) solid;
     color: var(--color);
     cursor: pointer;
 }
 
 .quadrado0 {
-    height: 150px;
-    width: 150px;
+    width: 110px;
+    height: 110px;
     background-color: var(--background-color-trans);
     text-align: center;
-    font-size: 8rem;
+    font-size: 5rem;
     border: 3px var(--background-color-white) solid;
     color: var(--color);
     cursor: pointer;
@@ -159,4 +161,8 @@ button {
     text-align: center;
     font-size: 3rem;
     margin: 30px;
+}
+
+.botoes {
+    margin-top: 1.5rem;
 }
