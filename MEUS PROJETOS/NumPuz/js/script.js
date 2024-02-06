@@ -10,6 +10,9 @@ function puz5(){
 function puz6(){
     window.location.href = "./pages/6x6.html";
 }
+function voltar(){
+    window.location.href = "../index.html";
+}
 
 var num1;
 var num2;
