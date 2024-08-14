@@ -61,8 +61,8 @@
 }
 
 .table-6x6 {
-    height: 970px;
-    width: 940px;
+    /* height: 400px; */
+    width: 696px;
     background-color: var(--background-color-black);
     border: 2px var(--background-color-white) solid;
     display: flex;
