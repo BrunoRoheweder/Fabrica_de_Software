@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu */
+
+.container_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    height: 40px;
+    width: 90px;
+    border: 2px black solid;
+}
+
+.menu {
+    width: 20rem;
+    height: 19rem;
+    border-radius: 1rem;
+    background-color: rgb(150, 4, 194);
+}
+
+.botao_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao_menu button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.menu h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 3rem;
+    margin: 30px;
+}
+
+/* Tabuleiro */
+
+*, *::before, *::after{
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -o-box-sizing: border-box;  
+}
+
+.container_tabu_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+#containerFull {
+    width: 780px;
+    margin: 0 auto;
+}
+
+#container {
+    border: 3px solid #000;
+    width: 566px;
+    height: 563px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+}
+
+.row {
+    clear: b; 
+}
+
+.row div {
+    font-size: 3em;
+    float: left;
+    width: 70px;
+    height: 70px;
+    border-left: 1.5px solid #000;
+    border-bottom: 1.5px solid #000;
+    text-align: center;
+}
+
+.row div:first-child {
+    border-l    
+}
+
+.line-1 div:nth-child(2n+1)  {
+    background: #000;
+    color: #FFF;
+}
+
+.line-2 div:nth-child(2n)  {
+    background: #000;
+    color: #FFF;
+}
+
+.mensagem {
+    text-align: center;
+} 
