@@ -254,7 +254,7 @@ function mover_6x6(origem, destino) {
 // inicio 3x3
 function mover_1(modo) {
     if (modo === 3) {
-        mover_3x3(0, 1);
+        mover_3x3(0, 1); // (0, 1) = (partida, chegada)
         mover_3x3(0, 3);
     } else if (modo === 4) {
         mover_4x4(0, 1);
